@@ -21,6 +21,8 @@
 		66F2B608196F9E00007410A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F2B5EA196F9E00007410A8 /* UIKit.framework */; };
 		66F2B610196F9E00007410A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66F2B60E196F9E00007410A8 /* InfoPlist.strings */; };
 		66F2B612196F9E00007410A8 /* ConstraintsFightTransformsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F2B611196F9E00007410A8 /* ConstraintsFightTransformsTests.m */; };
+		66F2B61D196FA27E007410A8 /* TransformsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F2B61C196FA27E007410A8 /* TransformsViewController.m */; };
+		66F2B61F196FAAF4007410A8 /* Questions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66F2B61E196FAAF4007410A8 /* Questions.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		66F2B60D196F9E00007410A8 /* ConstraintsFightTransformsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConstraintsFightTransformsTests-Info.plist"; sourceTree = "<group>"; };
 		66F2B60F196F9E00007410A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66F2B611196F9E00007410A8 /* ConstraintsFightTransformsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConstraintsFightTransformsTests.m; sourceTree = "<group>"; };
+		66F2B61B196FA27E007410A8 /* TransformsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformsViewController.h; sourceTree = "<group>"; };
+		66F2B61C196FA27E007410A8 /* TransformsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformsViewController.m; sourceTree = "<group>"; };
+		66F2B61E196FAAF4007410A8 /* Questions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Questions.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +120,13 @@
 				66F2B5F5196F9E00007410A8 /* AppDelegate.h */,
 				66F2B5F6196F9E00007410A8 /* AppDelegate.m */,
 				66F2B5F8196F9E00007410A8 /* Main.storyboard */,
+				66F2B61B196FA27E007410A8 /* TransformsViewController.h */,
+				66F2B61C196FA27E007410A8 /* TransformsViewController.m */,
 				66F2B5FB196F9E00007410A8 /* ViewController.h */,
 				66F2B5FC196F9E00007410A8 /* ViewController.m */,
 				66F2B5FE196F9E00007410A8 /* Images.xcassets */,
 				66F2B5ED196F9E00007410A8 /* Supporting Files */,
+				66F2B61E196FAAF4007410A8 /* Questions.rtf */,
 			);
 			path = ConstraintsFightTransforms;
 			sourceTree = "<group>";
@@ -230,6 +238,7 @@
 			files = (
 				66F2B5FF196F9E00007410A8 /* Images.xcassets in Resources */,
 				66F2B5F1196F9E00007410A8 /* InfoPlist.strings in Resources */,
+				66F2B61F196FAAF4007410A8 /* Questions.rtf in Resources */,
 				66F2B5FA196F9E00007410A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +261,7 @@
 				66F2B5FD196F9E00007410A8 /* ViewController.m in Sources */,
 				66F2B5F7196F9E00007410A8 /* AppDelegate.m in Sources */,
 				66F2B5F3196F9E00007410A8 /* main.m in Sources */,
+				66F2B61D196FA27E007410A8 /* TransformsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
