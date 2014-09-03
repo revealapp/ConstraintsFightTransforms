@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B68D7AA9-352E-4EF2-A188-1959861DF600</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ConstraintsFightTransforms</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F094F021-9272-45E5-A4F8-CEC44949305A</key>
+		<string>ssh://github.com/aeberbach/ConstraintsFightTransforms.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ConstraintsFightTransforms.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F094F021-9272-45E5-A4F8-CEC44949305A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/aeberbach/ConstraintsFightTransforms.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F094F021-9272-45E5-A4F8-CEC44949305A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F094F021-9272-45E5-A4F8-CEC44949305A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ConstraintsFightTransforms</string>
+		</dict>
+	</array>
+</dict>
+</plist>
