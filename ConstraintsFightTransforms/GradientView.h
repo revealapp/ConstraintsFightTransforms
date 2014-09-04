@@ -4,7 +4,8 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSUInteger, GradientViewType) {
+typedef NS_ENUM(NSUInteger, GradientViewType)
+{
     GradientViewTypeVertical = 0,
     GradientViewTypeHorizontal
 };
