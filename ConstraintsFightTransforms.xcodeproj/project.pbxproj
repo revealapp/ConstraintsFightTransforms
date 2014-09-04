@@ -10,7 +10,6 @@
 		66F2B5E7196F9E00007410A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F2B5E6196F9E00007410A8 /* Foundation.framework */; };
 		66F2B5E9196F9E00007410A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F2B5E8196F9E00007410A8 /* CoreGraphics.framework */; };
 		66F2B5EB196F9E00007410A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F2B5EA196F9E00007410A8 /* UIKit.framework */; };
-		66F2B5F1196F9E00007410A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66F2B5EF196F9E00007410A8 /* InfoPlist.strings */; };
 		66F2B5F3196F9E00007410A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F2B5F2196F9E00007410A8 /* main.m */; };
 		66F2B5F7196F9E00007410A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F2B5F6196F9E00007410A8 /* AppDelegate.m */; };
 		66F2B5FA196F9E00007410A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F2B5F8196F9E00007410A8 /* Main.storyboard */; };
@@ -27,14 +26,12 @@
 		66F2B5E8196F9E00007410A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		66F2B5EA196F9E00007410A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66F2B5EE196F9E00007410A8 /* ConstraintsFightTransforms-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConstraintsFightTransforms-Info.plist"; sourceTree = "<group>"; };
-		66F2B5F0196F9E00007410A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66F2B5F2196F9E00007410A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66F2B5F4196F9E00007410A8 /* ConstraintsFightTransforms-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConstraintsFightTransforms-Prefix.pch"; sourceTree = "<group>"; };
 		66F2B5F5196F9E00007410A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66F2B5F6196F9E00007410A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		66F2B5F9196F9E00007410A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66F2B5FE196F9E00007410A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		66F2B605196F9E00007410A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		66F2B61B196FA27E007410A8 /* TransformsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformsViewController.h; sourceTree = "<group>"; };
 		66F2B61C196FA27E007410A8 /* TransformsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformsViewController.m; sourceTree = "<group>"; };
 		66F2B61E196FAAF4007410A8 /* Questions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Questions.rtf; sourceTree = "<group>"; };
@@ -81,7 +78,6 @@
 				66F2B5E6196F9E00007410A8 /* Foundation.framework */,
 				66F2B5E8196F9E00007410A8 /* CoreGraphics.framework */,
 				66F2B5EA196F9E00007410A8 /* UIKit.framework */,
-				66F2B605196F9E00007410A8 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -109,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				66F2B5EE196F9E00007410A8 /* ConstraintsFightTransforms-Info.plist */,
-				66F2B5EF196F9E00007410A8 /* InfoPlist.strings */,
 				66F2B5F2196F9E00007410A8 /* main.m */,
 				66F2B5F4196F9E00007410A8 /* ConstraintsFightTransforms-Prefix.pch */,
 			);
@@ -169,7 +164,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				66F2B5FF196F9E00007410A8 /* Images.xcassets in Resources */,
-				66F2B5F1196F9E00007410A8 /* InfoPlist.strings in Resources */,
 				66F2B61F196FAAF4007410A8 /* Questions.rtf in Resources */,
 				66F2B5FA196F9E00007410A8 /* Main.storyboard in Resources */,
 			);
@@ -193,14 +187,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		66F2B5EF196F9E00007410A8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				66F2B5F0196F9E00007410A8 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		66F2B5F8196F9E00007410A8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -226,6 +212,9 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -239,7 +228,9 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_SHADOW = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -264,6 +255,9 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -271,7 +265,9 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_SHADOW = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
