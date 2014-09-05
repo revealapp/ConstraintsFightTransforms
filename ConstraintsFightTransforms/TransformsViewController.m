@@ -10,6 +10,7 @@ static NSString *IBAEffectiveSDKMajorVersionString();
 
 @interface TransformsViewController ()
 
+@property (nonatomic, weak) IBOutlet UIScrollView *scrollView;
 @property (nonatomic, weak) IBOutlet NSLayoutConstraint *contentViewWidthConstraint;
 @property (nonatomic, weak) IBOutlet UILabel *versionLabel;
 
@@ -78,6 +79,13 @@ static NSString *IBAEffectiveSDKMajorVersionString();
     CGAffineTransform scaleTransform = CGAffineTransformMakeScale(0.5f, 0.5f);
     self.constrainedScaleView.transform = scaleTransform;
     self.codedScaleView.transform = scaleTransform;
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    [self.scrollView flashScrollIndicators];
 }
 
 - (void)viewWillLayoutSubviews

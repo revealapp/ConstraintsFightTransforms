@@ -352,6 +352,7 @@
                         <outlet property="rightBaseRotateView" destination="JJV-Db-1NR" id="xbI-8W-Dbk"/>
                         <outlet property="rightBaseScaleView" destination="Pnx-fi-ouO" id="XEy-g5-Ywu"/>
                         <outlet property="rightBaseTranslateView" destination="5ua-Lg-D4y" id="WQo-vD-m4f"/>
+                        <outlet property="scrollView" destination="tgJ-dR-dl5" id="pGe-sc-jmW"/>
                         <outlet property="versionLabel" destination="6YP-cx-4wb" id="2qW-SE-OZE"/>
                     </connections>
                 </viewController>
