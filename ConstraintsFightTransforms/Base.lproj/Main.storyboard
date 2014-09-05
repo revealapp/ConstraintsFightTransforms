@@ -344,7 +344,7 @@
                     <connections>
                         <outlet property="constrainedRotateView" destination="gt5-Vk-8Qf" id="mUJ-QM-bVu"/>
                         <outlet property="constrainedScaleView" destination="eK6-22-QIg" id="oZn-Yo-8K3"/>
-                        <outlet property="constrainedTranlateView" destination="hNQ-ne-e4A" id="G4g-e0-dqk"/>
+                        <outlet property="constrainedTranslateView" destination="hNQ-ne-e4A" id="cRn-Hh-ayp"/>
                         <outlet property="contentViewWidthConstraint" destination="pHg-Lf-0Mf" id="pV6-Pk-Oc1"/>
                         <outlet property="leftBaseRotateView" destination="0eq-u5-JJ8" id="F0b-o2-oVa"/>
                         <outlet property="leftBaseScaleView" destination="hLj-gF-3IU" id="naG-cQ-yCc"/>

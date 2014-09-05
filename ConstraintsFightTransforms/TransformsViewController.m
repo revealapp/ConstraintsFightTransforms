@@ -15,9 +15,9 @@ static NSString *IBAEffectiveSDKMajorVersionString();
 @property (nonatomic, weak) IBOutlet UILabel *versionLabel;
 
 @property (nonatomic, weak) IBOutlet GradientView *leftBaseTranslateView;
-@property (nonatomic, weak) IBOutlet GradientView *constrainedTranlateView;
+@property (nonatomic, weak) IBOutlet GradientView *constrainedTranslateView;
 @property (nonatomic, weak) IBOutlet GradientView *rightBaseTranslateView;
-@property (nonatomic, weak) GradientView *codedTranlateView;
+@property (nonatomic, weak) GradientView *codedTranslateView;
 
 @property (nonatomic, weak) IBOutlet GradientView *leftBaseRotateView;
 @property (nonatomic, weak) IBOutlet GradientView *constrainedRotateView;
@@ -44,7 +44,7 @@ static NSString *IBAEffectiveSDKMajorVersionString();
     self.versionLabel.text = [NSString stringWithFormat:@"iOS %@ SDK", IBAEffectiveSDKMajorVersionString()];
 
     // setup all views laid out in code
-    self.codedTranlateView = [self.class codedViewInsertedAboveBaseView:self.rightBaseTranslateView];
+    self.codedTranslateView = [self.class codedViewInsertedAboveBaseView:self.rightBaseTranslateView];
     self.codedRotateView = [self.class codedViewInsertedAboveBaseView:self.rightBaseRotateView];
     self.codedScaleView = [self.class codedViewInsertedAboveBaseView:self.rightBaseScaleView];
 
@@ -60,7 +60,7 @@ static NSString *IBAEffectiveSDKMajorVersionString();
     }
 
     // setup transformed views appearance
-    NSArray *transformedViews = @[ self.constrainedTranlateView, self.codedTranlateView, self.constrainedRotateView, self.codedRotateView, self.constrainedScaleView, self.codedScaleView ];
+    NSArray *transformedViews = @[ self.constrainedTranslateView, self.codedTranslateView, self.constrainedRotateView, self.codedRotateView, self.constrainedScaleView, self.codedScaleView ];
     for (GradientView *view in transformedViews)
     {
         view.alpha = kTransformedViewAlpha;
@@ -69,8 +69,8 @@ static NSString *IBAEffectiveSDKMajorVersionString();
 
     // finally, setup transforms for each case
     CGAffineTransform translationTransform = CGAffineTransformMakeTranslation(-20.0f, 20.0f);
-    self.constrainedTranlateView.transform = translationTransform;
-    self.codedTranlateView.transform = translationTransform;
+    self.constrainedTranslateView.transform = translationTransform;
+    self.codedTranslateView.transform = translationTransform;
 
     CGAffineTransform rotationTransform = CGAffineTransformMakeRotation(30.0f * M_PI / 180.0f);
     self.constrainedRotateView.transform = rotationTransform;
@@ -101,7 +101,7 @@ static NSString *IBAEffectiveSDKMajorVersionString();
     [super viewDidLayoutSubviews];
 
     // layout all coded views
-    [self.class layoutCodedView:self.codedTranlateView againstBaseView:self.rightBaseTranslateView];
+    [self.class layoutCodedView:self.codedTranslateView againstBaseView:self.rightBaseTranslateView];
     [self.class layoutCodedView:self.codedRotateView againstBaseView:self.rightBaseRotateView];
     [self.class layoutCodedView:self.codedScaleView againstBaseView:self.rightBaseScaleView];
 
@@ -113,7 +113,7 @@ static NSString *IBAEffectiveSDKMajorVersionString();
 
 - (void)validateConstrainedViews
 {
-    [self.class validateConstrainedView:self.constrainedTranlateView withBaseView:self.leftBaseTranslateView againstCodedView:self.codedTranlateView withBaseView:self.rightBaseTranslateView];
+    [self.class validateConstrainedView:self.constrainedTranslateView withBaseView:self.leftBaseTranslateView againstCodedView:self.codedTranslateView withBaseView:self.rightBaseTranslateView];
     [self.class validateConstrainedView:self.constrainedRotateView withBaseView:self.leftBaseRotateView againstCodedView:self.codedRotateView withBaseView:self.rightBaseRotateView];
     [self.class validateConstrainedView:self.constrainedScaleView withBaseView:self.leftBaseScaleView againstCodedView:self.codedScaleView withBaseView:self.rightBaseScaleView];
 }
