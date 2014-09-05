@@ -15,7 +15,6 @@
 		66F2B5FA196F9E00007410A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66F2B5F8196F9E00007410A8 /* Main.storyboard */; };
 		66F2B5FF196F9E00007410A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F2B5FE196F9E00007410A8 /* Images.xcassets */; };
 		66F2B61D196FA27E007410A8 /* TransformsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F2B61C196FA27E007410A8 /* TransformsViewController.m */; };
-		66F2B61F196FAAF4007410A8 /* Questions.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 66F2B61E196FAAF4007410A8 /* Questions.rtf */; };
 		7DCAB33C19B6C1B100D133E9 /* UIColor+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCAB33B19B6C1B100D133E9 /* UIColor+Theme.m */; };
 		7DCAB33F19B6C1C000D133E9 /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCAB33E19B6C1C000D133E9 /* GradientView.m */; };
 /* End PBXBuildFile section */
@@ -34,7 +33,6 @@
 		66F2B5FE196F9E00007410A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66F2B61B196FA27E007410A8 /* TransformsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformsViewController.h; sourceTree = "<group>"; };
 		66F2B61C196FA27E007410A8 /* TransformsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformsViewController.m; sourceTree = "<group>"; };
-		66F2B61E196FAAF4007410A8 /* Questions.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = Questions.rtf; sourceTree = "<group>"; };
 		7DCAB33A19B6C1B100D133E9 /* UIColor+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Theme.h"; sourceTree = "<group>"; };
 		7DCAB33B19B6C1B100D133E9 /* UIColor+Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Theme.m"; sourceTree = "<group>"; };
 		7DCAB33D19B6C1C000D133E9 /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 				66F2B5F8196F9E00007410A8 /* Main.storyboard */,
 				66F2B5FE196F9E00007410A8 /* Images.xcassets */,
 				66F2B5ED196F9E00007410A8 /* Supporting Files */,
-				66F2B61E196FAAF4007410A8 /* Questions.rtf */,
 			);
 			path = ConstraintsFightTransforms;
 			sourceTree = "<group>";
@@ -164,7 +161,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				66F2B5FF196F9E00007410A8 /* Images.xcassets in Resources */,
-				66F2B61F196FAAF4007410A8 /* Questions.rtf in Resources */,
 				66F2B5FA196F9E00007410A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
