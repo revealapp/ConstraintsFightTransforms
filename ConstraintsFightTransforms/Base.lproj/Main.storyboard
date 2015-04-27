@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Fwb-DO-0l6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Fwb-DO-0l6">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -9,6 +10,7 @@
         <scene sceneID="yjf-ar-lxg">
             <objects>
                 <navigationController definesPresentationContext="YES" id="Fwb-DO-0l6" sceneMemberID="viewController">
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="y1h-X5-tb8">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.87450980392156863" green="0.14901960784313725" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
@@ -24,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-368" y="287"/>
         </scene>
-        <!--Transforms View Controller - Constraints & Transformations-->
+        <!--Constraints & Transformations-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="TransformsViewController" sceneMemberID="viewController">
@@ -36,29 +38,24 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view appearanceType="aqua" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6SX-Xi-PIR" userLabel="Content View">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6SX-Xi-PIR" userLabel="Content View">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <view appearanceType="aqua" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="brf-54-byB" userLabel="Header View">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="brf-54-byB" userLabel="Header View">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <view appearanceType="aqua" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O53-fp-a12" userLabel="Left Labels View">
+                                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O53-fp-a12" userLabel="Left Labels View">
                                                 <rect key="frame" x="0.0" y="5" width="160" height="45"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <label appearanceType="aqua" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="700" text="iOS X" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6YP-cx-4wb">
+                                                    <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="700" text="iOS X" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6YP-cx-4wb">
                                                         <rect key="frame" x="57" y="0.0" width="46" height="25"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                                         <color key="textColor" white="0.27000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label appearanceType="aqua" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Constraints" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EdM-10-49s">
+                                                    <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Constraints" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EdM-10-49s">
                                                         <rect key="frame" x="45" y="25" width="71" height="20"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
                                                         <color key="textColor" white="0.27000000000000002" alpha="1" colorSpace="calibratedWhite"/>
@@ -78,21 +75,18 @@
                                                     <constraint firstItem="EdM-10-49s" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="O53-fp-a12" secondAttribute="leading" constant="20" symbolic="YES" id="zm2-2F-neD"/>
                                                 </constraints>
                                             </view>
-                                            <view appearanceType="aqua" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mJz-rq-NaX" userLabel="Right Labels View">
+                                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mJz-rq-NaX" userLabel="Right Labels View">
                                                 <rect key="frame" x="160" y="5" width="160" height="45"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <subviews>
-                                                    <label appearanceType="aqua" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="700" text="Expected" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMh-Vw-58H">
+                                                    <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="700" text="Expected" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KMh-Vw-58H">
                                                         <rect key="frame" x="41" y="0.0" width="78" height="25"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="18"/>
                                                         <color key="textColor" white="0.27000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label appearanceType="aqua" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Frames" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLS-Hy-2lo">
+                                                    <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" text="Frames" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLS-Hy-2lo">
                                                         <rect key="frame" x="57" y="25" width="46" height="20"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                                         <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="14"/>
                                                         <color key="textColor" white="0.27000000000000002" alpha="1" colorSpace="calibratedWhite"/>
@@ -112,9 +106,8 @@
                                                     <constraint firstItem="KMh-Vw-58H" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="mJz-rq-NaX" secondAttribute="leading" constant="20" symbolic="YES" id="vcM-mp-iF1"/>
                                                 </constraints>
                                             </view>
-                                            <imageView appearanceType="aqua" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow" translatesAutoresizingMaskIntoConstraints="NO" id="1Fn-NS-sFc">
+                                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow" translatesAutoresizingMaskIntoConstraints="NO" id="1Fn-NS-sFc">
                                                 <rect key="frame" x="0.0" y="54" width="320" height="3"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.88235294119999996" green="0.88235294119999996" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -135,47 +128,41 @@
                                             <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="O53-fp-a12" secondAttribute="bottom" id="t5k-OE-7Be"/>
                                         </constraints>
                                     </view>
-                                    <view appearanceType="aqua" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tEX-WD-p8O" userLabel="Translation Case View">
+                                    <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tEX-WD-p8O" userLabel="Translation Case View">
                                         <rect key="frame" x="0.0" y="54" width="320" height="150"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Translation (-20,20)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEb-ZW-gRl">
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Translation (-20,20)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEb-ZW-gRl">
                                                 <rect key="frame" x="86" y="9" width="149" height="25"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="18"/>
                                                 <color key="textColor" red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4wM-5e-e0H" userLabel="Left Base Translation View" customClass="GradientView">
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4wM-5e-e0H" userLabel="Left Base Translation View" customClass="GradientView">
                                                 <rect key="frame" x="30" y="50" width="100" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="HDl-RJ-MyA"/>
                                                     <constraint firstAttribute="height" constant="50" id="xOm-3C-mGT"/>
                                                 </constraints>
                                             </view>
-                                            <view appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hNQ-ne-e4A" userLabel="Constrained Translation View" customClass="GradientView">
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hNQ-ne-e4A" userLabel="Constrained Translation View" customClass="GradientView">
                                                 <rect key="frame" x="30" y="50" width="100" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="G6a-J1-Sxi"/>
                                                     <constraint firstAttribute="height" constant="50" id="vdV-9L-s80"/>
                                                 </constraints>
                                             </view>
-                                            <view appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ua-Lg-D4y" userLabel="Right Base Translation View" customClass="GradientView">
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5ua-Lg-D4y" userLabel="Right Base Translation View" customClass="GradientView">
                                                 <rect key="frame" x="190" y="50" width="100" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="ba6-DY-JTw"/>
                                                     <constraint firstAttribute="height" constant="50" id="ce4-lT-RAG"/>
                                                 </constraints>
                                             </view>
-                                            <imageView appearanceType="aqua" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow" translatesAutoresizingMaskIntoConstraints="NO" id="C9M-M1-kct">
+                                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow" translatesAutoresizingMaskIntoConstraints="NO" id="C9M-M1-kct">
                                                 <rect key="frame" x="0.0" y="150" width="320" height="3"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -194,47 +181,41 @@
                                             <constraint firstItem="hNQ-ne-e4A" firstAttribute="top" secondItem="4wM-5e-e0H" secondAttribute="top" id="zwL-wY-jlx"/>
                                         </constraints>
                                     </view>
-                                    <view appearanceType="aqua" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FuI-zL-dsb" userLabel="Rotation Case View">
+                                    <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FuI-zL-dsb" userLabel="Rotation Case View">
                                         <rect key="frame" x="0.0" y="204" width="320" height="150"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rotation (30°)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4U7-C0-mOF">
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rotation (30°)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4U7-C0-mOF">
                                                 <rect key="frame" x="106" y="9" width="108" height="25"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="18"/>
                                                 <color key="textColor" red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0eq-u5-JJ8" userLabel="Left Base Rotation View" customClass="GradientView">
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0eq-u5-JJ8" userLabel="Left Base Rotation View" customClass="GradientView">
                                                 <rect key="frame" x="30" y="50" width="100" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="RW7-2Z-FnE"/>
                                                     <constraint firstAttribute="width" constant="100" id="mNh-ny-dhC"/>
                                                 </constraints>
                                             </view>
-                                            <view appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gt5-Vk-8Qf" userLabel="Constrained Rotation View" customClass="GradientView">
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gt5-Vk-8Qf" userLabel="Constrained Rotation View" customClass="GradientView">
                                                 <rect key="frame" x="30" y="50" width="100" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="BYE-iY-fSp"/>
                                                     <constraint firstAttribute="height" constant="50" id="lEV-js-3cl"/>
                                                 </constraints>
                                             </view>
-                                            <view appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JJV-Db-1NR" userLabel="Right Base Rotation View" customClass="GradientView">
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JJV-Db-1NR" userLabel="Right Base Rotation View" customClass="GradientView">
                                                 <rect key="frame" x="190" y="50" width="100" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="2he-A1-1bl"/>
                                                     <constraint firstAttribute="width" constant="100" id="v4P-pu-dXc"/>
                                                 </constraints>
                                             </view>
-                                            <imageView appearanceType="aqua" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow" translatesAutoresizingMaskIntoConstraints="NO" id="H5N-5L-sgk">
+                                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow" translatesAutoresizingMaskIntoConstraints="NO" id="H5N-5L-sgk">
                                                 <rect key="frame" x="0.0" y="150" width="320" height="3"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -253,47 +234,41 @@
                                             <constraint firstAttribute="centerY" secondItem="0eq-u5-JJ8" secondAttribute="centerY" id="uUz-ln-Ysb"/>
                                         </constraints>
                                     </view>
-                                    <view appearanceType="aqua" opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XXk-KA-u2W" userLabel="Scale Case View">
+                                    <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XXk-KA-u2W" userLabel="Scale Case View">
                                         <rect key="frame" x="0.0" y="354" width="320" height="150"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scale (50%)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NtH-zJ-OPG">
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scale (50%)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NtH-zJ-OPG">
                                                 <rect key="frame" x="115" y="9" width="90" height="25"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="18"/>
                                                 <color key="textColor" red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <view appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hLj-gF-3IU" userLabel="Left Base Scale View" customClass="GradientView">
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hLj-gF-3IU" userLabel="Left Base Scale View" customClass="GradientView">
                                                 <rect key="frame" x="30" y="50" width="100" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="QNY-jD-lCK"/>
                                                     <constraint firstAttribute="width" constant="100" id="qXZ-tk-ceS"/>
                                                 </constraints>
                                             </view>
-                                            <view appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eK6-22-QIg" userLabel="Constrained Scale View" customClass="GradientView">
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eK6-22-QIg" userLabel="Constrained Scale View" customClass="GradientView">
                                                 <rect key="frame" x="30" y="50" width="100" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="3bh-9z-m5H"/>
                                                     <constraint firstAttribute="width" constant="100" id="oZP-Pn-khn"/>
                                                 </constraints>
                                             </view>
-                                            <view appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pnx-fi-ouO" userLabel="Right Base Scale View" customClass="GradientView">
+                                            <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pnx-fi-ouO" userLabel="Right Base Scale View" customClass="GradientView">
                                                 <rect key="frame" x="190" y="50" width="100" height="50"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" id="F6K-pn-s2n"/>
                                                     <constraint firstAttribute="height" constant="50" id="YtO-hN-vla"/>
                                                 </constraints>
                                             </view>
-                                            <imageView appearanceType="aqua" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow" translatesAutoresizingMaskIntoConstraints="NO" id="r5o-g8-uRg">
+                                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shadow" translatesAutoresizingMaskIntoConstraints="NO" id="r5o-g8-uRg">
                                                 <rect key="frame" x="0.0" y="150" width="320" height="3"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -340,7 +315,6 @@
                         </constraints>
                     </scrollView>
                     <navigationItem key="navigationItem" title="Constraints &amp; Transformations" id="Jz4-wW-k5d"/>
-                    <size key="freeformSize" width="320" height="600"/>
                     <connections>
                         <outlet property="constrainedRotateView" destination="gt5-Vk-8Qf" id="mUJ-QM-bVu"/>
                         <outlet property="constrainedScaleView" destination="eK6-22-QIg" id="oZn-Yo-8K3"/>
