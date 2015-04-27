@@ -153,7 +153,7 @@ static NSString *IBAEffectiveSDKMajorVersionString();
     CGPoint referenceDeltaOrigin = CGPointMake(codedViewOriginInWindow.x - codedBaseViewOriginInWindow.x, codedViewOriginInWindow.y - codedBaseViewOriginInWindow.y);
     CGPoint constrainedDeltaOrigin = CGPointMake(constrainedViewOriginInWindow.x - constrainedBaseViewOriginInWindow.x, constrainedViewOriginInWindow.y - constrainedBaseViewOriginInWindow.y);
 
-    BOOL isConstrainedCorrectly = (fabsf(constrainedDeltaOrigin.x - referenceDeltaOrigin.x) <= kValidationThreshold && fabsf(constrainedDeltaOrigin.y - referenceDeltaOrigin.y) <= kValidationThreshold);
+    BOOL isConstrainedCorrectly = (fabs(constrainedDeltaOrigin.x - referenceDeltaOrigin.x) <= kValidationThreshold && fabs(constrainedDeltaOrigin.y - referenceDeltaOrigin.y) <= kValidationThreshold);
 
     if (isConstrainedCorrectly)
     {
