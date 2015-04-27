@@ -10,29 +10,29 @@
 	<string>ConstraintsFightTransforms</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F08B193E-FD4A-49B1-97A2-EC792FD83F3E</key>
-		<string>ssh://github.com/revealapp/ConstraintsFightTransforms.git</string>
+		<key>1313B59F8E04AF5185D7C7E3E7745CF34E0EE39D</key>
+		<string>github.com:revealapp/ConstraintsFightTransforms.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ConstraintsFightTransforms.xcodeproj/project.xcworkspace</string>
+	<string>ConstraintsFightTransforms.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F08B193E-FD4A-49B1-97A2-EC792FD83F3E</key>
+		<key>1313B59F8E04AF5185D7C7E3E7745CF34E0EE39D</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/revealapp/ConstraintsFightTransforms.git</string>
+	<string>github.com:revealapp/ConstraintsFightTransforms.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F08B193E-FD4A-49B1-97A2-EC792FD83F3E</string>
+	<string>1313B59F8E04AF5185D7C7E3E7745CF34E0EE39D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F08B193E-FD4A-49B1-97A2-EC792FD83F3E</string>
+			<string>1313B59F8E04AF5185D7C7E3E7745CF34E0EE39D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ConstraintsFightTransforms</string>
 		</dict>
